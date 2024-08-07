@@ -1,0 +1,98 @@
+:root{
+    --violete:hsl(257, 40%, 49%);
+    --magenta:hsl(300, 69%, 71%);
+}
+html{
+    font-family: 'Open Sans';
+}
+.bg-body{
+    background-image: url(../images/bg-desktop.svg);
+    background-color: var(--violete);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: var(--violete);
+    width: 100%;
+    height: 100vh;
+    padding: 40px 40px 0px 40px ;
+}
+
+.cabecalho{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+.main{
+    display: flex;
+}
+.main .image-ilustration{
+    width: 50%;
+}
+.main .conteiner-info{
+    width: 50%;
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+.main .conteiner-info h2{
+    color: #ffffff;
+    padding-left: 10px;
+}
+.main .conteiner-info p{
+    color: #ffffff;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.main .conteiner-info .registro{
+    color: var(--violete);
+    display: inline-block;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding: 10px 60px;
+    box-shadow: 1px 1px 5px #000000;
+    transition: 0.3s;
+}
+.main .conteiner-info .registro:hover{
+    background-color: var(--magenta);
+    border: 1px solid var(--magenta);
+    color: #ffffff;
+}
+.rodape{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 50px;
+}
+.rodape .redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 100%;
+}
+.rodape .redes .link-redes{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    transition: 0.3s;
+}
+.rodape .redes .link-redes:hover{
+    color: var(--magenta);
+    border: 1px solid var(--magenta);
+    border-radius: 50%;
+}
